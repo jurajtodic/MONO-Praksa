@@ -1,0 +1,28 @@
+C:\Users\student\source\repos\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.exe
+C:\Users\student\source\repos\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.deps.json
+C:\Users\student\source\repos\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.runtimeconfig.json
+C:\Users\student\source\repos\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.runtimeconfig.dev.json
+C:\Users\student\source\repos\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.dll
+C:\Users\student\source\repos\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.pdb
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.AssemblyInfoInputs.cache
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.AssemblyInfo.cs
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.dll
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.pdb
+C:\Users\student\source\repos\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.genruntimeconfig.cache
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.exe
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.deps.json
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.runtimeconfig.json
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.runtimeconfig.dev.json
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.dll
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\bin\Debug\netcoreapp3.1\Praksa-Day1.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.AssemblyInfo.cs
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.dll
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D1\Praksa-Day1\obj\Debug\netcoreapp3.1\Praksa-Day1.genruntimeconfig.cache
