@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Praksa-Day1/1.0.0": {
+        "runtime": {
+          "Praksa-Day1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Praksa-Day1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
