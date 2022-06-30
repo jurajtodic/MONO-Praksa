@@ -35,6 +35,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.Repository", "Mu
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.Repository.Common", "Multilayer.Repository.Common\Multilayer.Repository.Common.csproj", "{C317F972-2DD8-46F7-AD4A-5584EB9106AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD} = {2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.DAL", "Multilayer.DAL\Multilayer.DAL.csproj", "{24D08A30-5841-4BA2-A82A-63567903A72A}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -45,10 +48,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.DAL", "Multilaye
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.Model", "Multilayer.Model\Multilayer.Model.csproj", "{42A40BA2-0E6E-42BA-A252-B3345409B9E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C317F972-2DD8-46F7-AD4A-5584EB9106AE} = {C317F972-2DD8-46F7-AD4A-5584EB9106AE}
+		{DB56EA90-8DC5-431B-934A-47AEF8F331E8} = {DB56EA90-8DC5-431B-934A-47AEF8F331E8}
+		{2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD} = {2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.Model.Common", "Multilayer.Model.Common\Multilayer.Model.Common.csproj", "{DB56EA90-8DC5-431B-934A-47AEF8F331E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C317F972-2DD8-46F7-AD4A-5584EB9106AE} = {C317F972-2DD8-46F7-AD4A-5584EB9106AE}
+		{2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD} = {2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multilayer.Common", "Multilayer.Common\Multilayer.Common.csproj", "{540110A9-0EF0-495D-8B67-3EF5B9B73424}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C317F972-2DD8-46F7-AD4A-5584EB9106AE} = {C317F972-2DD8-46F7-AD4A-5584EB9106AE}
+		{DB56EA90-8DC5-431B-934A-47AEF8F331E8} = {DB56EA90-8DC5-431B-934A-47AEF8F331E8}
+		{42A40BA2-0E6E-42BA-A252-B3345409B9E4} = {42A40BA2-0E6E-42BA-A252-B3345409B9E4}
+		{2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD} = {2A5E8BF5-D9A6-4FB9-A8E9-C4E727102FCD}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
