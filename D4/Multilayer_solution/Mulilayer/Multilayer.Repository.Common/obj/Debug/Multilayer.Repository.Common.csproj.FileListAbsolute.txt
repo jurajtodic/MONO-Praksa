@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Repository.Common\bin\Debug\Multilayer.Repository.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Repository.Common\bin\Debug\Multilayer.Repository.Common.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Repository.Common\obj\Debug\Multilayer.Repository.Common.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Repository.Common\obj\Debug\Multilayer.Repository.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Repository.Common\obj\Debug\Multilayer.Repository.Common.pdb

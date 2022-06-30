@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Service.Common\bin\Debug\Multilayer.Service.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Service.Common\bin\Debug\Multilayer.Service.Common.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Service.Common\obj\Debug\Multilayer.Service.Common.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Service.Common\obj\Debug\Multilayer.Service.Common.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Service.Common\obj\Debug\Multilayer.Service.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Service.Common\obj\Debug\Multilayer.Service.Common.pdb
