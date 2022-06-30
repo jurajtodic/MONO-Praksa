@@ -1,0 +1,14 @@
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\bin\Debug\netcoreapp3.1\test.ConsoleApp.exe
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\bin\Debug\netcoreapp3.1\test.ConsoleApp.deps.json
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\bin\Debug\netcoreapp3.1\test.ConsoleApp.runtimeconfig.json
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\bin\Debug\netcoreapp3.1\test.ConsoleApp.runtimeconfig.dev.json
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\bin\Debug\netcoreapp3.1\test.ConsoleApp.dll
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\bin\Debug\netcoreapp3.1\test.ConsoleApp.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.AssemblyInfo.cs
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.dll
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D2\test\test.ConsoleApp\obj\Debug\netcoreapp3.1\test.ConsoleApp.genruntimeconfig.cache
