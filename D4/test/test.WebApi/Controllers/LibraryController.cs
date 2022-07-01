@@ -113,15 +113,42 @@ namespace test.WebApi.Controllers
             SqlConnection connection = new SqlConnection(connectionString);
             using (connection)
             {
-                SqlCommand command = new SqlCommand(
-                    "UPDATE Library SET Address = @libAddress, City = @libCity WHERE LibraryID = @libId", connection);
+                // finding all ID's
+                List<int> libraryListId = new List<int>();
+                SqlCommand command2 = new SqlCommand("SELECT LibraryID FROM Library", connection);
                 connection.Open();
-                command.Parameters.AddWithValue("@libAddress", library.Address);
-                command.Parameters.AddWithValue("@libCity", library.City);
-                command.Parameters.AddWithValue("@libId", id);
+                SqlDataReader reader = command2.ExecuteReader();
 
-                command.ExecuteNonQuery();
-                return Request.CreateResponse(HttpStatusCode.OK, "Done");
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        libraryListId.Add(reader.GetInt32(0));
+                    }
+                    reader.Close();
+                }
+                else
+                {
+                    reader.Close();
+                }
+
+                if (!libraryListId.Exists(x => x == id))
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Id not found");
+                }
+                else
+                {
+                    SqlCommand command = new SqlCommand(
+                        "UPDATE Library SET Address = @libAddress, City = @libCity WHERE LibraryID = @libId", connection);
+                    command.Parameters.AddWithValue("@libAddress", library.Address);
+                    command.Parameters.AddWithValue("@libCity", library.City);
+                    command.Parameters.AddWithValue("@libId", id);
+
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                    return Request.CreateResponse(HttpStatusCode.OK, "Done");
+                }
+
             }
         }
 
@@ -131,13 +158,40 @@ namespace test.WebApi.Controllers
             SqlConnection connection = new SqlConnection(connectionString);
             using (connection)
             {
-                SqlCommand command = new SqlCommand(
-                    "DELETE FROM Library WHERE LibraryID=@id", connection);
+                // finding all ID's
+                List<int> libraryListId = new List<int>();
+                SqlCommand command2 = new SqlCommand("SELECT LibraryID FROM Library", connection);
                 connection.Open();
-                command.Parameters.AddWithValue("@id", id);
+                SqlDataReader reader = command2.ExecuteReader();
 
-                command.ExecuteNonQuery();
-                return Request.CreateResponse(HttpStatusCode.OK, "Done");
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        libraryListId.Add(reader.GetInt32(0));
+                    }
+                    reader.Close();
+                }
+                else
+                {
+                    reader.Close();
+                }
+
+                if (!libraryListId.Exists(x => x == id))
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Id not found");
+                }
+                else
+                {
+                    SqlCommand command = new SqlCommand(
+                        "DELETE FROM Library WHERE LibraryID=@id", connection);
+                    command.Parameters.AddWithValue("@id", id);
+
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                    return Request.CreateResponse(HttpStatusCode.OK, "Done");
+                }
+
             }
         }
     }
