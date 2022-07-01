@@ -18,13 +18,21 @@ namespace Mulilayer.WebApi.Controllers
 
             List<Book> result = bookService.GetBookDataService();
 
+            List<BookRest> bookRestList = new List<BookRest>();
+
+            foreach (Book book in result)
+            {
+                BookRest bookRest = new BookRest(book.BookID, book.Title, book.Author, book.Genre, book.ReleaseYear);
+                bookRestList.Add(bookRest);
+            }
+
             if (result == null)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "No books found");
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, bookRestList);
             }
 
         }
@@ -36,13 +44,21 @@ namespace Mulilayer.WebApi.Controllers
 
             List<Book> result = bookService.GetBookDataByIdService(id);
 
+            List<BookRest> bookRestList = new List<BookRest>();
+
+            foreach (Book book in result)
+            {
+                BookRest bookRest = new BookRest(book.BookID, book.Title, book.Author, book.Genre, book.ReleaseYear);
+                bookRestList.Add(bookRest);
+            }
+
             if (result == null)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "ID not found");
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, bookRestList);
             }
         }
 
@@ -52,7 +68,9 @@ namespace Mulilayer.WebApi.Controllers
             BookService bookService = new BookService();
             Book result = bookService.PostBookDataService(book);
 
-            return Request.CreateResponse(HttpStatusCode.OK, result);
+            BookCreateRest bookCreateRest = new BookCreateRest(result.Title, result.Author, result.Genre, result.ReleaseYear);
+
+            return Request.CreateResponse(HttpStatusCode.OK, bookCreateRest);
         }
 
         // PUT: api/Book/5
@@ -62,13 +80,16 @@ namespace Mulilayer.WebApi.Controllers
 
             Book result = bookService.PutBookDataService(id, book);
 
+            BookCreateRest bookCreateRest = new BookCreateRest(result.Title, result.Author, result.Genre, result.ReleaseYear);
+
+
             if (result == null)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "ID not found");
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, bookCreateRest);
             }
         }
 
@@ -87,6 +108,38 @@ namespace Mulilayer.WebApi.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.OK, result);
             }
+        }
+
+        public class BookRest
+        {
+            public BookRest(int bookid, string title, string author, string genre, int year)
+            {
+                BookID = bookid;
+                Title = title;
+                Author = author;
+                Genre = genre;
+                ReleaseYear = year;
+            }
+            public int BookID { get; set; }
+            public string Title { get; set; }
+            public string Author { get; set; }
+            public string Genre { get; set; }
+            public int ReleaseYear { get; set; }
+        }
+
+        public class BookCreateRest
+        {
+            public BookCreateRest(string title, string author, string genre, int year)
+            {
+                Title = title;
+                Author = author;
+                Genre = genre;
+                ReleaseYear = year;
+            }
+            public string Title { get; set; }
+            public string Author { get; set; }
+            public string Genre { get; set; }
+            public int ReleaseYear { get; set; }
         }
     }
 }

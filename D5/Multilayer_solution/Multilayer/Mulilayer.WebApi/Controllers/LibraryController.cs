@@ -17,14 +17,21 @@ namespace Mulilayer.WebApi.Controllers
             LibraryService libService = new LibraryService();
 
             List<Library> result = libService.GetLibraryDataService();
+            List<LibraryRest> libRestList = new List<LibraryRest>();
 
+            foreach (Library lib in result)
+            {
+                LibraryRest libRest = new LibraryRest(lib.LibraryID, lib.Address, lib.City);
+                libRestList.Add(libRest);
+            }
+            
             if (result == null)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "No Libraries found");
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, libRestList);
             }
             
         }
@@ -35,6 +42,13 @@ namespace Mulilayer.WebApi.Controllers
             LibraryService libService = new LibraryService();
 
             List<Library> result = libService.GetLibraryDataByIdService(id);
+            List<LibraryRest> libRestList = new List<LibraryRest>();
+
+            foreach (Library lib in result)
+            {
+                LibraryRest libRest = new LibraryRest(lib.LibraryID, lib.Address, lib.City);
+                libRestList.Add(libRest);
+            }
 
             if (result == null)
             {
@@ -42,7 +56,7 @@ namespace Mulilayer.WebApi.Controllers
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, libRestList);
             }
         }
 
@@ -52,7 +66,9 @@ namespace Mulilayer.WebApi.Controllers
             LibraryService libService = new LibraryService();
             Library result = libService.PostLibraryDataService(library);
 
-            return Request.CreateResponse(HttpStatusCode.OK, result);
+            LibraryCreateRest libCreate = new LibraryCreateRest(result.Address, result.City);
+
+            return Request.CreateResponse(HttpStatusCode.OK, libCreate);
         }
 
         // PUT: api/Library/5
@@ -61,6 +77,7 @@ namespace Mulilayer.WebApi.Controllers
             LibraryService libService = new LibraryService();
 
             Library result = libService.PutLibraryDataService(id, library);
+            LibraryCreateRest libraryCreateRest = new LibraryCreateRest(result.Address, result.City);
 
             if (result == null)
             {
@@ -68,7 +85,7 @@ namespace Mulilayer.WebApi.Controllers
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, libraryCreateRest);
             }
         }
 
@@ -88,7 +105,32 @@ namespace Mulilayer.WebApi.Controllers
                 return Request.CreateResponse(HttpStatusCode.OK, result);
             }
         }
-        
+
+        public class LibraryRest
+        {
+            public LibraryRest(int libId, string addy, string city)
+            {
+                LibraryID = libId;
+                Address = addy;
+                City = city;
+            }
+
+            public int LibraryID { get; set; }
+            public string Address { get; set; }
+            public string City { get; set; }
+        }
+
+        public class LibraryCreateRest
+        {
+            public LibraryCreateRest(string addy, string city)
+            {
+                Address = addy;
+                City = city;
+            }
+
+            public string Address { get; set; }
+            public string City { get; set; }
+        }
     }
  
 }
