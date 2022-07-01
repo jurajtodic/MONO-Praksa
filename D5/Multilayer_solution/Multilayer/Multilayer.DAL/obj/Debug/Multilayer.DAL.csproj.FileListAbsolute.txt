@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.DAL\bin\Debug\Multilayer.DAL.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.DAL\bin\Debug\Multilayer.DAL.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.DAL\obj\Debug\Multilayer.DAL.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.DAL\obj\Debug\Multilayer.DAL.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.DAL\obj\Debug\Multilayer.DAL.pdb

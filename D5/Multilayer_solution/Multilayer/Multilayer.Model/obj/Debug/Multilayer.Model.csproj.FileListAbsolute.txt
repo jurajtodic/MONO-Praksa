@@ -1,0 +1,14 @@
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Model\bin\Debug\Multilayer.Model.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Model\bin\Debug\Multilayer.Model.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Model\obj\Debug\Multilayer.Model.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Model\obj\Debug\Multilayer.Model.dll
+C:\Users\student\Desktop\MONO PRAKSA\D4\Multilayer_solution\Mulilayer\Multilayer.Model\obj\Debug\Multilayer.Model.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\bin\Debug\Multilayer.Model.dll
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\bin\Debug\Multilayer.Model.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\obj\Debug\Multilayer.Model.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\obj\Debug\Multilayer.Model.dll
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\obj\Debug\Multilayer.Model.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\bin\Debug\Multilayer.Model.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\bin\Debug\Multilayer.Model.Common.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\obj\Debug\Multilayer.Model.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Model\obj\Debug\Multilayer.Model.csproj.CopyComplete
