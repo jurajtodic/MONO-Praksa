@@ -1,0 +1,11 @@
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Common\bin\Debug\Multilayer.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Common\bin\Debug\Multilayer.Common.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D5\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D7\Multilayer_solution\Multilayer\Multilayer.Common\bin\Debug\Multilayer.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D7\Multilayer_solution\Multilayer\Multilayer.Common\bin\Debug\Multilayer.Common.pdb
+C:\Users\student\Desktop\MONO PRAKSA\D7\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\MONO PRAKSA\D7\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\MONO PRAKSA\D7\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.dll
+C:\Users\student\Desktop\MONO PRAKSA\D7\Multilayer_solution\Multilayer\Multilayer.Common\obj\Debug\Multilayer.Common.pdb
