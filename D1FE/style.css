@@ -1,0 +1,47 @@
+#PersonTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: #f2f2f2;
+}
+
+#PersonTable th {
+    text-align-last: left;
+    padding: 10px 5px 10px 20px;
+    font-weight: bold;
+    color: darkgray;
+    font-size: 15px;
+    border-top: 1px solid lightgray;
+}
+
+#PersonTable td  {
+    font-weight: 100;
+    color: grey;
+    padding: 0px 5px 10px 20px;
+}
+
+#PersonForm {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#PersonForm input {
+    width: 25%;
+    border-collapse: collapse;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#submitBtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
