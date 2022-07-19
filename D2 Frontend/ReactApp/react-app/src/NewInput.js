@@ -2,8 +2,8 @@ import React from 'react'
 
 function NewInput(props) {
   return (
-    <div className='newInput'>
-        <input type={props.type} id={props.id} placeholder={props.placeholder} required/><br/>
+    <div>
+        <input id={props.id} type={props.type} value={props.value} onChange={props.onChange} placeholder={props.placeholder} required/><br/>
     </div>
   )
 }

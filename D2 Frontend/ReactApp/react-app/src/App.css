@@ -74,7 +74,18 @@ li:hover {
   cursor: pointer;
 }
 
+#employeeLabel {
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+/*
 .App {
-  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+  /*background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+  background-image: url('https://i.giphy.com/media/BgCpQOyqyyzle/giphy.webp');
   height: 100vh;
 }
+*/
