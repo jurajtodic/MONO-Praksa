@@ -1,0 +1,99 @@
+#PersonForm {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#PersonForm input {
+  width: 25%;
+  border-collapse: collapse;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#SubmitButton {
+  background-color: lightcoral; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 25%;
+}
+
+#SubmitButton:hover {
+  background-color: rgb(238, 54, 54);
+  cursor: pointer;
+}
+
+#PersonTable {
+  margin-left: 15px;
+  width: 95%;
+  border-collapse: collapse;
+  font-size: 15px;
+  background-color: whitesmoke;
+}
+
+#PersonTable th {
+  text-align-last: left;
+  padding: 10px 5px 10px 20px;
+  font-weight: bold;
+  color: gray;
+  font-size: 15px;
+  border-top: 1px solid lightgray;
+}
+
+#PersonTable td  {
+  font-weight: 100;
+  color: gray;
+  padding: 0px 5px 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: lightcoral;
+}
+
+li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#employeeLabel {
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.App {
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+  background-image: url('https://i.giphy.com/media/BgCpQOyqyyzle/giphy.webp');
+  height: 100vh;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
